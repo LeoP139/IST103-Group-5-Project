@@ -2,20 +2,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: aqua;
   margin: 0;
-  display: flex; /* Enable flexbox for centering */
-  justify-content: center; /* Center the dashboard horizontally */
-  align-items: center; /* Center the dashboard vertically (optional, depending on desired overall page centering) */
-  min-height: 100vh; /* Ensure the body takes at least the full viewport height for vertical centering */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
 }
 
 .dashboard {
-  display: grid; /* Use grid for the main dashboard layout */
-  grid-template-columns: 2fr 6fr; /* Two main columns: Name (2 parts), Containers (6 parts) */
-  grid-template-rows: auto; /* Allow rows to size based on content */
-  gap: 20px; /* Gap between grid items */
+  display: grid; 
+  grid-template-columns: 2fr 6fr; 
+  grid-template-rows: auto; 
+  gap: 20px; 
   padding: 20px;
-  /* Optional: Background for the main dashboard area */
-  border-radius: 8px; /* Optional: Rounded corners for the dashboard */
+  border-radius: 8px; 
 }
 
 .Name {
@@ -26,8 +25,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border-radius: 4px; /* Optional */
-  grid-row: 1 / span 2; /* Make the Name container span two rows */
+  border-radius: 4px; 
+  grid-row: 1 / span 2; 
 }
 
 .Name h2 {
@@ -47,5 +46,5 @@ body {
   padding: 15px;
   text-align: center;
   background-color: #f9f9f9;
-  border-radius: 4px; /* Optional: Rounded corners for the activity containers */
+  border-radius: 4px; 
 }
