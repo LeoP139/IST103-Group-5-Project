@@ -1,49 +1,85 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: hsl(226, 43%, 10%);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.dashboard {
-  display: flex;
-  gap: 20px;
-}
-.profile {
-  background-color: hsl(246, 80%, 60%);
-  padding: 30px;
-  border-radius: 15px;
-  color: white;
-  width: 200px;
-  text-align: left;
-}
-.profile img {
-  width: 50px;
-  border-radius: 50%;
-}
-.profile h2 {
-  font-size: 18px;
-  margin: 10px 0;
-}
-.categories {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-}
-.category {
-  background-color: hsl(235, 46%, 20%);
-  padding: 20px;
-  border-radius: 15px;
-  width: 150px;
-}
-.category h3 {
-  margin: 0;
-}
-.work { border-top: 40px solid hsl(15, 100%, 70%); }
-.play { border-top: 40px solid hsl(195, 74%, 62%); }
-.study { border-top: 40px solid hsl(348, 100%, 68%); }
-.exercise { border-top: 40px solid hsl(145, 58%, 55%); }
-.social { border-top: 40px solid hsl(264, 64%, 52%); }
-.self-care { border-top: 40px solid hsl(43, 84%, 65%); }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .dashboard {
+    display: flex;
+    gap: 20px;
+  }
+  .profile {
+    background-color: hsl(246, 80%, 60%);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+    text-align: left;
+  }
+  .profile img {
+    width: 60px;
+    border-radius: 50%; 
+  }
+  .profile h2{
+      font-size: 12px;
+      font-weight: 300;
+  }
+  .profile h1 {
+      font-size: 35px;
+      font-weight: 500;
+  }
+  
+  
+  
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .category {
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    border-radius: 15px;
+    width: 150px;
+  }
+  .category h3 {
+    margin: 0;
+  }
+  
+  .profile nav {
+      margin-top: 100px;
+  }
+  
+  .profile button{
+      display: block;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 14px;
+      margin: 5px 0;
+      cursor: pointer;
+      opacity: 0.7;
+  }
+  
+  .profile button:hover{
+      opacity: 1;
+  }
+  
+  
+  
+  .category:hover {
+      background-color: hsl(235, 46%, 30%);
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+    }
+  
+  .work { border-top: 40px solid hsl(15, 100%, 70%); }
+  .play { border-top: 40px solid hsl(195, 74%, 62%); }
+  .study { border-top: 40px solid hsl(348, 100%, 68%); }
+  .exercise { border-top: 40px solid hsl(145, 58%, 55%); }
+  .social { border-top: 40px solid hsl(264, 64%, 52%); }
+  .self-care { border-top: 40px solid hsl(43, 84%, 65%); }
+  
