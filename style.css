@@ -137,15 +137,6 @@ body {
 .self-care {
   border-top: 40px solid hsl(43, 84%, 65%);
 }
-=======
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: hsl(226, 43%, 10%);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
   .dashboard {
     display: flex;
     gap: 20px;
@@ -170,9 +161,6 @@ body {
       font-size: 35px;
       font-weight: 500;
   }
-  
-  
-  
   .categories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -207,8 +195,6 @@ body {
       opacity: 1;
   }
   
-  
-  
   .category:hover {
       background-color: hsl(235, 46%, 30%);
       transform: translateY(-5px);
@@ -221,4 +207,3 @@ body {
   .exercise { border-top: 40px solid hsl(145, 58%, 55%); }
   .social { border-top: 40px solid hsl(264, 64%, 52%); }
   .self-care { border-top: 40px solid hsl(43, 84%, 65%); }
-
