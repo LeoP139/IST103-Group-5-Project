@@ -19,9 +19,9 @@
             <h1>Jeremy</h1>
             <h1>Robson</h1>
             <nav>
-                <button class="active">Daily</button>
-                <button class="active2">Weekly</button>
-                <button class="active3">Monthly</button>
+                <button id="daily" class="active" onclick="daily()">Daily</button>
+                <button id="weekly" class="active2" onclick="weekly()">Weekly</button>
+                <button id="monthly" class="active3" onclick="monthly()">Monthly</button>
             </nav>
         </div>
         <div class="categories">
@@ -29,43 +29,43 @@
                 <img class="icon" src="media/images/icon-ellipsis.svg" alt="icon-ellipsis">
                 <img class="icon-top" src="media/images/icon-work.svg" alt="icon-work">
                 <h3>Work</h3>
-                <p class="time">32hrs</p>
-                <p class="subtext">Last Week - 36hrs</p>
+                <p id="workNow" class="time">32hrs</p>
+                <p id="workPrevious" class="subtext">Last Week - 36hrs</p>
             </div>
             <div class="category play">
                 <img class="icon" src="media/images/icon-ellipsis.svg" alt="icon-ellipsis">
                 <img class="icon-top" src="media/images/icon-play.svg" alt="icon-play">
                 <h3>Play</h3>
-                <p class="time">10hrs</p>
-                <p class="subtext">Last Week - 8hrs</p>
+                <p id="playNow" class="time">10hrs</p>
+                <p id="playPrevious" class="subtext">Last Week - 8hrs</p>
             </div>
             <div class="category study">
                 <img class="icon" src="media/images/icon-ellipsis.svg" alt="icon-ellipsis">
                 <img class="icon-top" src="media/images/icon-study.svg" alt="icon-study">
                 <h3>Study</h3>
-                <p class="time">4hrs</p>
-                <p class="subtext">Last Week - 7hrs</p>
+                <p id="studyNow" class="time">4hrs</p>
+                <p id="studyPrevious" class="subtext">Last Week - 7hrs</p>
             </div>
             <div class="category exercise">
                 <img class="icon" src="media/images/icon-ellipsis.svg" alt="icon-ellipsis">
                 <img class="icon-top" src="media/images/icon-exercise.svg" alt="icon-exercise">
                 <h3>Exercise</h3>
-                <p class="time">4hrs</p>
-                <p class="subtext">Last Week - 5hrs</p>
+                <p id="exerciseNow" class="time">4hrs</p>
+                <p id="exercisePrevious" class="subtext">Last Week - 5hrs</p>
             </div>
             <div class="category social">
                 <img class="icon" src="media/images/icon-ellipsis.svg" alt="icon-ellipsis">
                 <img class="icon-top" src="media/images/icon-social.svg" alt="icon-social">
                 <h3>Social</h3>
-                <p class="time">5hrs</p>
-                <p class="subtext">Last Week - 10hrs</p>
+                <p id="socialNow" class="time">5hrs</p>
+                <p id="socialPrevious" class="subtext">Last Week - 10hrs</p>
             </div>
             <div class="category self-care">
                 <img class="icon" src="media/images/icon-ellipsis.svg" alt="icon-ellipsis">
                 <img class="icon-top" src="media/images/icon-self-care.svg" alt="icon-self-care">
                 <h3>Self Care</h3>
-                <p class="time">2hrs</p>
-                <p class="subtext">Last Week - 2hrs</p>
+                <p id="selfNow" class="time">2hrs</p>
+                <p id="selfPrevious" class="subtext">Last Week - 2hrs</p>
             </div>
         </div>
     </div>
