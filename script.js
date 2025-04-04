@@ -14,6 +14,9 @@ async function fetchJSONData() {
     }
 };
 
+function clickImage() {
+    console.log("here on image")
+}
 
 async function daily() {
     //Function to modify daily data;
